@@ -21,3 +21,5 @@ Every HTML page should start with a doctype declaration and follow a standard sk
   </body>
 </html>
 ```
+
+The `<head>` holds metadata (title, character encoding, linked stylesheets) that is not shown directly on the page. The `<body>` holds everything the visitor actually sees.
