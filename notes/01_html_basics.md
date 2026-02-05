@@ -34,3 +34,5 @@ HTML has six levels of headings, `<h1>` through `<h6>`, from most to least impor
 <h3>Subsection</h3>
 <p>A paragraph of regular text goes inside a p tag.</p>
 ```
+
+Search engines and screen readers rely on heading levels to understand a page's outline, so skipping levels (e.g. jumping from `<h1>` straight to `<h4>`) is considered bad practice.
