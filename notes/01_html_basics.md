@@ -25,3 +25,12 @@ Every HTML page should start with a doctype declaration and follow a standard sk
 The `<head>` holds metadata (title, character encoding, linked stylesheets) that is not shown directly on the page. The `<body>` holds everything the visitor actually sees.
 
 ## Headings and Paragraphs
+
+HTML has six levels of headings, `<h1>` through `<h6>`, from most to least important. Use only one `<h1>` per page — it represents the main title.
+
+```html
+<h1>Main Title</h1>
+<h2>Section</h2>
+<h3>Subsection</h3>
+<p>A paragraph of regular text goes inside a p tag.</p>
+```
