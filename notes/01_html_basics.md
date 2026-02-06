@@ -45,3 +45,5 @@ A link is created with the anchor tag `<a>` and its `href` attribute. An image u
 <a href="https://example.com">Visit Example</a>
 <img src="cat.jpg" alt="A sleeping orange cat" />
 ```
+
+Relative paths (`images/cat.jpg`) point to files inside your own project; absolute URLs (`https://...`) point elsewhere on the web.
