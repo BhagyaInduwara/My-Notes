@@ -38,3 +38,10 @@ HTML has six levels of headings, `<h1>` through `<h6>`, from most to least impor
 Search engines and screen readers rely on heading levels to understand a page's outline, so skipping levels (e.g. jumping from `<h1>` straight to `<h4>`) is considered bad practice.
 
 ## Links and Images
+
+A link is created with the anchor tag `<a>` and its `href` attribute. An image uses `<img>` with a `src` attribute and should always include `alt` text for accessibility.
+
+```html
+<a href="https://example.com">Visit Example</a>
+<img src="cat.jpg" alt="A sleeping orange cat" />
+```
