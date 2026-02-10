@@ -47,3 +47,5 @@ A link is created with the anchor tag `<a>` and its `href` attribute. An image u
 ```
 
 Relative paths (`images/cat.jpg`) point to files inside your own project; absolute URLs (`https://...`) point elsewhere on the web.
+
+## Lists
