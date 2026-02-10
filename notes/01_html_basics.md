@@ -49,3 +49,19 @@ A link is created with the anchor tag `<a>` and its `href` attribute. An image u
 Relative paths (`images/cat.jpg`) point to files inside your own project; absolute URLs (`https://...`) point elsewhere on the web.
 
 ## Lists
+
+HTML supports ordered lists (`<ol>`, numbered) and unordered lists (`<ul>`, bulleted). Each item goes inside an `<li>` tag.
+
+```html
+<ul>
+  <li>Milk</li>
+  <li>Eggs</li>
+  <li>Bread</li>
+</ul>
+
+<ol>
+  <li>Preheat oven</li>
+  <li>Mix ingredients</li>
+  <li>Bake for 20 minutes</li>
+</ol>
+```
