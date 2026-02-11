@@ -65,3 +65,5 @@ HTML supports ordered lists (`<ol>`, numbered) and unordered lists (`<ul>`, bull
   <li>Bake for 20 minutes</li>
 </ol>
 ```
+
+## Divs, Spans, and Semantic Tags
