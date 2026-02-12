@@ -67,3 +67,23 @@ HTML supports ordered lists (`<ol>`, numbered) and unordered lists (`<ul>`, bull
 ```
 
 ## Divs, Spans, and Semantic Tags
+
+`<div>` and `<span>` are generic containers with no meaning of their own — `<div>` is block-level (starts on a new line), `<span>` is inline (stays within a line of text). Modern HTML also offers semantic tags that describe the role of their content: `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`.
+
+```html
+<header>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+  </nav>
+</header>
+<main>
+  <article>
+    <h2>Blog Post Title</h2>
+    <p>Post content...</p>
+  </article>
+</main>
+<footer>
+  <p>&copy; 2026 My Site</p>
+</footer>
+```
