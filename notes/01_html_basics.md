@@ -87,3 +87,5 @@ HTML supports ordered lists (`<ol>`, numbered) and unordered lists (`<ul>`, bull
   <p>&copy; 2026 My Site</p>
 </footer>
 ```
+
+Using semantic tags instead of only `<div>` everywhere improves accessibility and SEO, because both browsers and assistive technology understand what each section is for.
