@@ -91,3 +91,17 @@ HTML supports ordered lists (`<ol>`, numbered) and unordered lists (`<ul>`, bull
 Using semantic tags instead of only `<div>` everywhere improves accessibility and SEO, because both browsers and assistive technology understand what each section is for.
 
 ## Forms
+
+Forms collect input from the user. A form is a `<form>` element wrapping input controls, and each control usually has a matching `<label>`.
+
+```html
+<form action="/submit" method="POST">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" />
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" />
+
+  <button type="submit">Send</button>
+</form>
+```
