@@ -105,3 +105,5 @@ Forms collect input from the user. A form is a `<form>` element wrapping input c
   <button type="submit">Send</button>
 </form>
 ```
+
+The `method` attribute decides how data is sent (`GET` appends it to the URL, `POST` sends it in the request body), and `action` is the URL that receives the submission.
