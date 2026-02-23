@@ -109,3 +109,9 @@ Forms collect input from the user. A form is a `<form>` element wrapping input c
 The `method` attribute decides how data is sent (`GET` appends it to the URL, `POST` sends it in the request body), and `action` is the URL that receives the submission.
 
 ## Attributes
+
+Attributes add extra information to a tag and are written as `name="value"` inside the opening tag. Common ones include `id` (a unique identifier), `class` (a reusable style/behavior hook), `src`, `href`, and `alt`.
+
+```html
+<p id="intro" class="highlight">Welcome!</p>
+```
