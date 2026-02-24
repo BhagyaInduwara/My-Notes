@@ -117,3 +117,5 @@ Attributes add extra information to a tag and are written as `name="value"` insi
 ```
 
 `id` should be unique per page (used for a single specific element, e.g. via JavaScript or an anchor link), while `class` can be reused across many elements (used for styling groups of elements the same way).
+
+## Comments
