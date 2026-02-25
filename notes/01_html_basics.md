@@ -128,3 +128,9 @@ HTML comments are written as `<!-- comment text -->` and are ignored by the brow
 ```
 
 ## Key takeaways
+
+- HTML describes structure and content, not behavior or styling.
+- Every page needs a doctype, `<html>`, `<head>`, and `<body>`.
+- Prefer semantic tags (`<nav>`, `<main>`, `<article>`) over generic `<div>` soup when the meaning fits.
+- Always give images meaningful `alt` text.
+- `id` is unique per element; `class` can be shared across many elements.
