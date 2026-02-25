@@ -126,3 +126,5 @@ HTML comments are written as `<!-- comment text -->` and are ignored by the brow
 <!-- This section shows the pricing table -->
 <section id="pricing"></section>
 ```
+
+## Key takeaways
