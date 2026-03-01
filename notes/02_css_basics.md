@@ -35,3 +35,5 @@ p {
   font-weight: bold;
 }
 ```
+
+Classes are the workhorse of everyday CSS because you can reuse the same class on many elements, while an id should only be used once per page.
