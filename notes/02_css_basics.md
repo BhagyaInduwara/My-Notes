@@ -19,3 +19,19 @@ body {
 ```
 
 ## Selectors
+
+A selector decides which elements a rule applies to. The most common are the type selector (`p`), the class selector (`.highlight`), and the id selector (`#header`).
+
+```css
+p {
+  color: #333;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+#header {
+  font-weight: bold;
+}
+```
