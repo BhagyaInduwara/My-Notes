@@ -39,3 +39,14 @@ p {
 Classes are the workhorse of everyday CSS because you can reuse the same class on many elements, while an id should only be used once per page.
 
 ## The Box Model
+
+Every element is a rectangular box made of four layers, from inside out: content, padding, border, and margin. Understanding this model is essential for controlling spacing.
+
+```css
+.card {
+  width: 200px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  margin: 8px;
+}
+```
