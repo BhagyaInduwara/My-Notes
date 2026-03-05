@@ -50,3 +50,11 @@ Every element is a rectangular box made of four layers, from inside out: content
   margin: 8px;
 }
 ```
+
+By default, `width` only sets the content area's width, and padding/border are added on top of it. Setting `box-sizing: border-box;` makes `width` include padding and border, which is usually far less confusing.
+
+```css
+* {
+  box-sizing: border-box;
+}
+```
