@@ -60,3 +60,12 @@ By default, `width` only sets the content area's width, and padding/border are a
 ```
 
 ## Colors and Units
+
+Colors can be named (`red`), hex (`#ff0000`), or functional (`rgb(255, 0, 0)`, `hsl(0, 100%, 50%)`). Sizes can be absolute (`px`) or relative (`%`, `em`, `rem`, `vw`, `vh`). Relative units help layouts adapt to different screen sizes and user font settings.
+
+```css
+.title {
+  font-size: 2rem; /* relative to the root font size */
+  color: hsl(210, 90%, 45%);
+}
+```
