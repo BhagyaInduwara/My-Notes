@@ -71,3 +71,14 @@ Colors can be named (`red`), hex (`#ff0000`), or functional (`rgb(255, 0, 0)`, `
 ```
 
 ## Flexbox
+
+Flexbox is a one-dimensional layout system, great for arranging items in a row or column with flexible spacing. You turn a container into a flex container with `display: flex`.
+
+```css
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+```
