@@ -84,3 +84,5 @@ Flexbox is a one-dimensional layout system, great for arranging items in a row o
 ```
 
 `justify-content` controls alignment along the main axis (usually horizontal), `align-items` controls the cross axis (usually vertical), and `gap` adds space between items without needing margins.
+
+## Grid
