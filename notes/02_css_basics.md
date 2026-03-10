@@ -86,3 +86,13 @@ Flexbox is a one-dimensional layout system, great for arranging items in a row o
 `justify-content` controls alignment along the main axis (usually horizontal), `align-items` controls the cross axis (usually vertical), and `gap` adds space between items without needing margins.
 
 ## Grid
+
+CSS Grid is a two-dimensional layout system, ideal when you need both rows and columns to line up, like a photo gallery or a dashboard.
+
+```css
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+```
