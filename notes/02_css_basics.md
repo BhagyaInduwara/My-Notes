@@ -96,3 +96,5 @@ CSS Grid is a two-dimensional layout system, ideal when you need both rows and c
   gap: 16px;
 }
 ```
+
+`repeat(3, 1fr)` creates three equal-width columns that share the available space evenly.
