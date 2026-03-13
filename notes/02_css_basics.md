@@ -110,3 +110,5 @@ p { color: black; }        /* specificity: 0-0-1 */
 ```
 
 `!important` overrides normal specificity rules entirely, but it should be used sparingly since it makes styles harder to override later.
+
+## Responsive Design with Media Queries
