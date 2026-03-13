@@ -100,3 +100,11 @@ CSS Grid is a two-dimensional layout system, ideal when you need both rows and c
 `repeat(3, 1fr)` creates three equal-width columns that share the available space evenly.
 
 ## The Cascade and Specificity
+
+When multiple rules target the same element, CSS decides which one wins using specificity (id > class > type) and source order (later rules override earlier ones of equal specificity).
+
+```css
+p { color: black; }        /* specificity: 0-0-1 */
+.note { color: blue; }     /* specificity: 0-1-0, wins over p */
+#warning { color: red; }   /* specificity: 1-0-0, wins over .note */
+```
