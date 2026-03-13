@@ -108,3 +108,5 @@ p { color: black; }        /* specificity: 0-0-1 */
 .note { color: blue; }     /* specificity: 0-1-0, wins over p */
 #warning { color: red; }   /* specificity: 1-0-0, wins over .note */
 ```
+
+`!important` overrides normal specificity rules entirely, but it should be used sparingly since it makes styles harder to override later.
