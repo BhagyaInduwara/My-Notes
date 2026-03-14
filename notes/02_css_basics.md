@@ -112,3 +112,18 @@ p { color: black; }        /* specificity: 0-0-1 */
 `!important` overrides normal specificity rules entirely, but it should be used sparingly since it makes styles harder to override later.
 
 ## Responsive Design with Media Queries
+
+Media queries apply CSS conditionally based on things like screen width, letting one stylesheet adapt to phones, tablets, and desktops.
+
+```css
+.container {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+    margin: 0 auto;
+  }
+}
+```
