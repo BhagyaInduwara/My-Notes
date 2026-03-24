@@ -129,3 +129,5 @@ Media queries apply CSS conditionally based on things like screen width, letting
 ```
 
 A common approach is "mobile-first": write base styles for small screens, then add `min-width` media queries to enhance the layout for larger ones.
+
+## Key takeaways
