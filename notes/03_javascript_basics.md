@@ -13,3 +13,5 @@ const name = "Alex";
 age = 26; // OK, let can be reassigned
 // name = "Sam"; // Error, const cannot be reassigned
 ```
+
+## Data Types
