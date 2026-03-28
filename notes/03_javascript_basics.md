@@ -15,3 +15,13 @@ age = 26; // OK, let can be reassigned
 ```
 
 ## Data Types
+
+JavaScript has a handful of primitive types: `string`, `number`, `boolean`, `undefined`, `null`, and `symbol`, plus the `object` type (which includes arrays and functions).
+
+```javascript
+let city = "Colombo";      // string
+let count = 42;            // number
+let isActive = true;       // boolean
+let missing = null;        // intentional absence of value
+let notSet;                // undefined
+```
