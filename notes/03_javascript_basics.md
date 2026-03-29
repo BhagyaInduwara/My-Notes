@@ -27,3 +27,16 @@ let notSet;                // undefined
 ```
 
 ## Functions
+
+A function is a reusable block of code. JavaScript supports classic function declarations, function expressions, and arrow functions.
+
+```javascript
+function add(a, b) {
+  return a + b;
+}
+
+const multiply = (a, b) => a * b;
+
+console.log(add(2, 3));      // 5
+console.log(multiply(2, 3)); // 6
+```
