@@ -25,3 +25,5 @@ let isActive = true;       // boolean
 let missing = null;        // intentional absence of value
 let notSet;                // undefined
 ```
+
+## Functions
