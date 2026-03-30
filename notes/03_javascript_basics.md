@@ -40,3 +40,5 @@ const multiply = (a, b) => a * b;
 console.log(add(2, 3));      // 5
 console.log(multiply(2, 3)); // 6
 ```
+
+Arrow functions have a shorter syntax and, importantly, do not create their own `this` binding — they inherit `this` from the surrounding scope, which is useful inside callbacks.
