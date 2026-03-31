@@ -58,3 +58,5 @@ console.log(doubled); // [2, 4, 6, 8, 10]
 console.log(evens);   // [2, 4]
 console.log(total);   // 15
 ```
+
+`map` transforms each element, `filter` keeps elements matching a condition, and `reduce` combines all elements into a single value.
