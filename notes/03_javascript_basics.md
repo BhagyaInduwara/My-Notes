@@ -44,3 +44,17 @@ console.log(multiply(2, 3)); // 6
 Arrow functions have a shorter syntax and, importantly, do not create their own `this` binding — they inherit `this` from the surrounding scope, which is useful inside callbacks.
 
 ## Arrays
+
+Arrays hold ordered lists of values and come with many built-in methods for transforming data.
+
+```javascript
+const numbers = [1, 2, 3, 4, 5];
+
+const doubled = numbers.map(n => n * 2);
+const evens = numbers.filter(n => n % 2 === 0);
+const total = numbers.reduce((sum, n) => sum + n, 0);
+
+console.log(doubled); // [2, 4, 6, 8, 10]
+console.log(evens);   // [2, 4]
+console.log(total);   // 15
+```
