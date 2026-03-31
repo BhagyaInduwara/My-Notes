@@ -42,3 +42,5 @@ console.log(multiply(2, 3)); // 6
 ```
 
 Arrow functions have a shorter syntax and, importantly, do not create their own `this` binding — they inherit `this` from the surrounding scope, which is useful inside callbacks.
+
+## Arrays
