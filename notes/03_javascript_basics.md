@@ -60,3 +60,5 @@ console.log(total);   // 15
 ```
 
 `map` transforms each element, `filter` keeps elements matching a condition, and `reduce` combines all elements into a single value.
+
+## Objects
