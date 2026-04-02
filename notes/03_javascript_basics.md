@@ -62,3 +62,18 @@ console.log(total);   // 15
 `map` transforms each element, `filter` keeps elements matching a condition, and `reduce` combines all elements into a single value.
 
 ## Objects
+
+Objects store key-value pairs and model real-world entities.
+
+```javascript
+const person = {
+  name: "Sam",
+  age: 30,
+  greet() {
+    return `Hi, I'm ${this.name}`;
+  },
+};
+
+console.log(person.name);   // "Sam"
+console.log(person.greet()); // "Hi, I'm Sam"
+```
