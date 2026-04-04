@@ -84,3 +84,5 @@ Destructuring lets you pull values out of objects or arrays concisely.
 const { name, age } = person;
 const [first, second] = [10, 20];
 ```
+
+## Conditionals and Loops
