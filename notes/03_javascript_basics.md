@@ -77,3 +77,10 @@ const person = {
 console.log(person.name);   // "Sam"
 console.log(person.greet()); // "Hi, I'm Sam"
 ```
+
+Destructuring lets you pull values out of objects or arrays concisely.
+
+```javascript
+const { name, age } = person;
+const [first, second] = [10, 20];
+```
