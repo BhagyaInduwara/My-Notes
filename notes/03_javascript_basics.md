@@ -86,3 +86,25 @@ const [first, second] = [10, 20];
 ```
 
 ## Conditionals and Loops
+
+`if`/`else` branches based on a condition; loops repeat code.
+
+```javascript
+const score = 85;
+
+if (score >= 90) {
+  console.log("A");
+} else if (score >= 80) {
+  console.log("B");
+} else {
+  console.log("C");
+}
+
+for (let i = 0; i < 3; i++) {
+  console.log(i);
+}
+
+for (const num of [10, 20, 30]) {
+  console.log(num);
+}
+```
