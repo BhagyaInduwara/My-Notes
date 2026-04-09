@@ -110,3 +110,18 @@ for (const num of [10, 20, 30]) {
 ```
 
 ## Asynchronous JavaScript
+
+Many operations (fetching data, reading files, timers) take time to complete. JavaScript handles this with callbacks, Promises, and the more readable `async`/`await` syntax.
+
+```javascript
+function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function greetAfterDelay() {
+  await delay(1000);
+  console.log("Hello after 1 second!");
+}
+
+greetAfterDelay();
+```
