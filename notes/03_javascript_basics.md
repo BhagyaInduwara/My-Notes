@@ -139,3 +139,5 @@ button.addEventListener("click", () => {
   document.querySelector("#message").textContent = "Button clicked!";
 });
 ```
+
+`querySelector` finds an element using a CSS-style selector, and `addEventListener` registers a function to run when an event (like a click) happens.
