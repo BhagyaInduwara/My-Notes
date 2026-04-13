@@ -129,3 +129,13 @@ greetAfterDelay();
 `await` can only be used inside an `async` function, and it pauses execution of that function (without blocking the rest of the program) until the Promise resolves.
 
 ## The DOM
+
+In a browser, JavaScript can read and change the page through the Document Object Model (DOM).
+
+```javascript
+const button = document.querySelector("#myButton");
+
+button.addEventListener("click", () => {
+  document.querySelector("#message").textContent = "Button clicked!";
+});
+```
