@@ -143,3 +143,9 @@ button.addEventListener("click", () => {
 `querySelector` finds an element using a CSS-style selector, and `addEventListener` registers a function to run when an event (like a click) happens.
 
 ## Key takeaways
+
+- Prefer `const` by default, `let` when reassignment is needed, and avoid `var`.
+- Arrays have powerful methods like `map`, `filter`, and `reduce` for transforming data without manual loops.
+- Arrow functions are concise and don't rebind `this`.
+- `async`/`await` makes asynchronous code read like synchronous code.
+- The DOM API lets JavaScript read and modify the live page.
