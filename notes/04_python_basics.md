@@ -14,3 +14,5 @@ is_student = True    # bool
 
 print(type(age))     # <class 'int'>
 ```
+
+## Basic Operators
