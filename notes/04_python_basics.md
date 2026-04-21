@@ -16,3 +16,12 @@ print(type(age))     # <class 'int'>
 ```
 
 ## Basic Operators
+
+Arithmetic, comparison, and logical operators work as you'd expect, with a few Python-specific extras like `**` for exponents and `//` for floor division.
+
+```python
+print(7 // 2)   # 3  (floor division)
+print(7 % 2)    # 1  (remainder)
+print(2 ** 5)   # 32 (exponent)
+print(5 == 5 and 3 < 4)  # True
+```
