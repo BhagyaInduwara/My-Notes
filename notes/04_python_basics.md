@@ -25,3 +25,5 @@ print(7 % 2)    # 1  (remainder)
 print(2 ** 5)   # 32 (exponent)
 print(5 == 5 and 3 < 4)  # True
 ```
+
+## Strings
