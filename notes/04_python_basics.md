@@ -37,3 +37,5 @@ print(greeting.lower())        # hello, world!
 print(greeting[7:12])          # World
 print(f"Length: {len(greeting)}")  # Length: 13
 ```
+
+f-strings (`f"..."`) are the preferred way to build strings with embedded expressions.
