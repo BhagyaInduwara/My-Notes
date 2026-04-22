@@ -27,3 +27,13 @@ print(5 == 5 and 3 < 4)  # True
 ```
 
 ## Strings
+
+Strings support slicing, formatting, and many built-in methods.
+
+```python
+greeting = "Hello, World!"
+
+print(greeting.lower())        # hello, world!
+print(greeting[7:12])          # World
+print(f"Length: {len(greeting)}")  # Length: 13
+```
