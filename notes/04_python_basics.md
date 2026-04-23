@@ -41,3 +41,15 @@ print(f"Length: {len(greeting)}")  # Length: 13
 f-strings (`f"..."`) are the preferred way to build strings with embedded expressions.
 
 ## Lists, Tuples, and Dictionaries
+
+A list is an ordered, mutable collection. A tuple is ordered but immutable. A dictionary maps keys to values.
+
+```python
+fruits = ["apple", "banana", "cherry"]
+fruits.append("date")
+
+point = (3, 4)  # tuple, cannot be changed after creation
+
+person = {"name": "Sam", "age": 30}
+print(person["name"])  # Sam
+```
