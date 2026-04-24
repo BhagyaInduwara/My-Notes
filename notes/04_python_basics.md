@@ -53,3 +53,13 @@ point = (3, 4)  # tuple, cannot be changed after creation
 person = {"name": "Sam", "age": 30}
 print(person["name"])  # Sam
 ```
+
+List comprehensions offer a concise way to build lists from an iterable.
+
+```python
+squares = [n ** 2 for n in range(5)]
+print(squares)  # [0, 1, 4, 9, 16]
+
+evens = [n for n in range(10) if n % 2 == 0]
+print(evens)  # [0, 2, 4, 6, 8]
+```
