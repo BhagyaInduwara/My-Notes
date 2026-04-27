@@ -65,3 +65,26 @@ print(evens)  # [0, 2, 4, 6, 8]
 ```
 
 ## Control Flow
+
+`if`/`elif`/`else` for branching, `for` and `while` for loops. Blocks are defined purely by indentation.
+
+```python
+score = 85
+
+if score >= 90:
+    grade = "A"
+elif score >= 80:
+    grade = "B"
+else:
+    grade = "C"
+
+print(grade)  # B
+
+for fruit in fruits:
+    print(fruit)
+
+count = 0
+while count < 3:
+    print(count)
+    count += 1
+```
