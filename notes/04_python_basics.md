@@ -90,3 +90,13 @@ while count < 3:
 ```
 
 ## Functions
+
+Functions are defined with `def` and can have default arguments, keyword arguments, and type hints.
+
+```python
+def greet(name: str, greeting: str = "Hello") -> str:
+    return f"{greeting}, {name}!"
+
+print(greet("Alex"))               # Hello, Alex!
+print(greet("Sam", greeting="Hi")) # Hi, Sam!
+```
