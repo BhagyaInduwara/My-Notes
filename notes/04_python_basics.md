@@ -102,3 +102,5 @@ print(greet("Sam", greeting="Hi")) # Hi, Sam!
 ```
 
 Type hints (`name: str`, `-> str`) are optional and not enforced at runtime, but they help tools catch bugs and make code self-documenting.
+
+## Error Handling
