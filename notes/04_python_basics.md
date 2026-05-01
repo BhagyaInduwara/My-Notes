@@ -104,3 +104,16 @@ print(greet("Sam", greeting="Hi")) # Hi, Sam!
 Type hints (`name: str`, `-> str`) are optional and not enforced at runtime, but they help tools catch bugs and make code self-documenting.
 
 ## Error Handling
+
+`try`/`except` catches exceptions so a program can recover instead of crashing.
+
+```python
+def safe_divide(a, b):
+    try:
+        return a / b
+    except ZeroDivisionError:
+        return None
+
+print(safe_divide(10, 2))  # 5.0
+print(safe_divide(10, 0))  # None
+```
