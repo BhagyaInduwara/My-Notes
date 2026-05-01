@@ -117,3 +117,5 @@ def safe_divide(a, b):
 print(safe_divide(10, 2))  # 5.0
 print(safe_divide(10, 0))  # None
 ```
+
+## Modules and Packages
