@@ -119,3 +119,13 @@ print(safe_divide(10, 0))  # None
 ```
 
 ## Modules and Packages
+
+Code can be split across files (modules) and imported where needed. Python's standard library and PyPI packages extend this further.
+
+```python
+import math
+from datetime import date
+
+print(math.sqrt(16))   # 4.0
+print(date.today())    # today's date
+```
