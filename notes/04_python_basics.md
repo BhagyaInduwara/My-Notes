@@ -131,3 +131,14 @@ print(date.today())    # today's date
 ```
 
 ## Reading Files
+
+Use `with` (a context manager) so files are automatically closed even if an error occurs.
+
+```python
+with open("notes.txt", "w") as f:
+    f.write("Hello, file!")
+
+with open("notes.txt", "r") as f:
+    content = f.read()
+    print(content)  # Hello, file!
+```
