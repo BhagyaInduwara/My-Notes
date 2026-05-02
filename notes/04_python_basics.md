@@ -129,3 +129,5 @@ from datetime import date
 print(math.sqrt(16))   # 4.0
 print(date.today())    # today's date
 ```
+
+## Reading Files
