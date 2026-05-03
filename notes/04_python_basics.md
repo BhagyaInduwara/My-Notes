@@ -144,3 +144,9 @@ with open("notes.txt", "r") as f:
 ```
 
 ## Key takeaways
+
+- Indentation defines blocks in Python — consistency matters.
+- Lists are mutable, tuples are not; dictionaries map keys to values.
+- List comprehensions are a concise, idiomatic way to build lists.
+- Type hints are optional but improve readability and tooling support.
+- Use `try`/`except` for recoverable errors, and `with` for resources like files.
