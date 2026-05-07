@@ -3,3 +3,21 @@
 Object-oriented programming organizes code around **objects** — bundles of data (attributes) and behavior (methods) — instead of just functions acting on raw data. It helps model real-world entities and keeps related code together.
 
 ## Classes and Objects
+
+A class is a blueprint; an object (or instance) is a concrete thing built from that blueprint. You can create many objects from one class, each with its own state.
+
+```python
+class Dog:
+    def __init__(self, name, breed):
+        self.name = name
+        self.breed = breed
+
+    def bark(self):
+        return f"{self.name} says Woof!"
+
+rex = Dog("Rex", "Labrador")
+bella = Dog("Bella", "Poodle")
+
+print(rex.bark())    # Rex says Woof!
+print(bella.bark())  # Bella says Woof!
+```
