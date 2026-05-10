@@ -25,3 +25,5 @@ print(bella.bark())  # Bella says Woof!
 `__init__` is the constructor — it runs automatically when a new object is created and sets up its initial state. `self` refers to the specific instance the method is being called on.
 
 ## The Four Pillars of OOP
+
+### 1. Encapsulation
