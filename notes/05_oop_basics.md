@@ -46,3 +46,5 @@ account = BankAccount(100)
 account.deposit(50)
 print(account.get_balance())  # 150
 ```
+
+By exposing `deposit` and `get_balance` instead of letting code freely modify `_balance`, the class can enforce rules (like rejecting negative deposits).
