@@ -50,3 +50,21 @@ print(account.get_balance())  # 150
 By exposing `deposit` and `get_balance` instead of letting code freely modify `_balance`, the class can enforce rules (like rejecting negative deposits).
 
 ### 2. Abstraction
+
+Abstraction means hiding complex implementation details behind a simple interface. The caller of `deposit()` doesn't need to know how the balance is validated or stored — they just call the method.
+
+```python
+from abc import ABC, abstractmethod
+
+class Shape(ABC):
+    @abstractmethod
+    def area(self):
+        pass
+
+class Circle(Shape):
+    def __init__(self, radius):
+        self.radius = radius
+
+    def area(self):
+        return 3.14159 * self.radius ** 2
+```
