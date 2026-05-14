@@ -68,3 +68,5 @@ class Circle(Shape):
     def area(self):
         return 3.14159 * self.radius ** 2
 ```
+
+`Shape` defines *what* every shape must be able to do (`area()`) without saying *how*. Each subclass fills in the how.
