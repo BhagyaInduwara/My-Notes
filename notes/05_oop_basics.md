@@ -70,3 +70,5 @@ class Circle(Shape):
 ```
 
 `Shape` defines *what* every shape must be able to do (`area()`) without saying *how*. Each subclass fills in the how.
+
+### 3. Inheritance
