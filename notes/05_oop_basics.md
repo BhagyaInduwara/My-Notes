@@ -90,3 +90,5 @@ class Cat(Animal):
 whiskers = Cat("Whiskers")
 print(whiskers.speak())  # Whiskers says Meow!
 ```
+
+`Cat` inherits `__init__` from `Animal` and overrides `speak` with its own version.
