@@ -72,3 +72,21 @@ class Circle(Shape):
 `Shape` defines *what* every shape must be able to do (`area()`) without saying *how*. Each subclass fills in the how.
 
 ### 3. Inheritance
+
+Inheritance lets a class (the subclass) reuse and extend behavior from another class (the superclass).
+
+```python
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+    def speak(self):
+        return "..."
+
+class Cat(Animal):
+    def speak(self):
+        return f"{self.name} says Meow!"
+
+whiskers = Cat("Whiskers")
+print(whiskers.speak())  # Whiskers says Meow!
+```
