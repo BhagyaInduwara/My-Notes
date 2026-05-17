@@ -94,3 +94,14 @@ print(whiskers.speak())  # Whiskers says Meow!
 `Cat` inherits `__init__` from `Animal` and overrides `speak` with its own version.
 
 ### 4. Polymorphism
+
+Polymorphism means objects of different classes can be used through the same interface, each responding in its own way.
+
+```python
+animals = [Cat("Whiskers"), Animal("Generic")]
+
+for animal in animals:
+    print(animal.speak())
+# Whiskers says Meow!
+# ...
+```
