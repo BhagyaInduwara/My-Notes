@@ -105,3 +105,5 @@ for animal in animals:
 # Whiskers says Meow!
 # ...
 ```
+
+The calling code doesn't need to know the exact type — it just calls `.speak()` and lets each object decide how to respond.
