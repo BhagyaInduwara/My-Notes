@@ -109,3 +109,5 @@ for animal in animals:
 The calling code doesn't need to know the exact type — it just calls `.speak()` and lets each object decide how to respond.
 
 ## Overriding vs Overloading
+
+**Overriding** happens when a subclass provides its own version of a method already defined in its superclass (as `Cat.speak` did above). It's resolved at runtime based on the object's actual type.
