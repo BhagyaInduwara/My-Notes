@@ -111,3 +111,16 @@ The calling code doesn't need to know the exact type — it just calls `.speak()
 ## Overriding vs Overloading
 
 **Overriding** happens when a subclass provides its own version of a method already defined in its superclass (as `Cat.speak` did above). It's resolved at runtime based on the object's actual type.
+
+**Overloading** means having multiple versions of a function/method that differ by parameters (same name, different signatures). Python doesn't support true overloading — a later `def` with the same name replaces the earlier one — so it's usually simulated with default arguments or `*args`.
+
+```python
+class Calculator:
+    def add(self, a, b=0, c=0):
+        return a + b + c
+
+calc = Calculator()
+print(calc.add(1))        # 1
+print(calc.add(1, 2))     # 3
+print(calc.add(1, 2, 3))  # 6
+```
