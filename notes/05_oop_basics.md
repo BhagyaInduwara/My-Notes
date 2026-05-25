@@ -126,3 +126,5 @@ print(calc.add(1, 2, 3))  # 6
 ```
 
 Languages like Java or C++ support real overloading, where the compiler picks the matching method based on argument types at compile time.
+
+## Composition over Inheritance
