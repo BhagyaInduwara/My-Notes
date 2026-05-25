@@ -128,3 +128,21 @@ print(calc.add(1, 2, 3))  # 6
 Languages like Java or C++ support real overloading, where the compiler picks the matching method based on argument types at compile time.
 
 ## Composition over Inheritance
+
+Composition means building complex objects by combining simpler ones, instead of inheriting from a base class. It's often more flexible because it avoids deep, rigid class hierarchies.
+
+```python
+class Engine:
+    def start(self):
+        return "Engine starting..."
+
+class Car:
+    def __init__(self):
+        self.engine = Engine()  # Car "has-a" Engine
+
+    def start(self):
+        return self.engine.start()
+
+car = Car()
+print(car.start())  # Engine starting...
+```
