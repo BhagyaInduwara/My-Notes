@@ -148,3 +148,5 @@ print(car.start())  # Engine starting...
 ```
 
 The rule of thumb: use inheritance for a true "is-a" relationship (a `Cat` is an `Animal`), and composition for a "has-a" relationship (a `Car` has an `Engine`).
+
+## Dunder (Magic) Methods
