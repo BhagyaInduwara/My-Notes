@@ -169,3 +169,5 @@ v1 = Vector(1, 2)
 v2 = Vector(3, 4)
 print(v1 + v2)  # Vector(4, 6)
 ```
+
+Common dunder methods: `__init__` (constructor), `__repr__` (developer-facing string), `__str__` (user-facing string), `__eq__` (equality), `__len__` (used by `len()`), `__add__`/`__sub__` (operators).
