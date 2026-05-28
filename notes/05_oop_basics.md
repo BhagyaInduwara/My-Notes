@@ -173,3 +173,26 @@ print(v1 + v2)  # Vector(4, 6)
 Common dunder methods: `__init__` (constructor), `__repr__` (developer-facing string), `__str__` (user-facing string), `__eq__` (equality), `__len__` (used by `len()`), `__add__`/`__sub__` (operators).
 
 ## Classes in JavaScript
+
+JavaScript classes are syntactic sugar over its prototype-based object system, but they read similarly to classes in Python or Java.
+
+```javascript
+class Animal {
+  constructor(name) {
+    this.name = name;
+  }
+
+  speak() {
+    return `${this.name} makes a sound.`;
+  }
+}
+
+class Dog extends Animal {
+  speak() {
+    return `${this.name} barks.`;
+  }
+}
+
+const rex = new Dog("Rex");
+console.log(rex.speak()); // Rex barks.
+```
