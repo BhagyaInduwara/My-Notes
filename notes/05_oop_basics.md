@@ -209,3 +209,5 @@ class Cat extends Animal {
 ```
 
 ## SOLID Principles
+
+SOLID is a set of five design guidelines for writing maintainable object-oriented code.
