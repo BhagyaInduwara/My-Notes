@@ -196,3 +196,14 @@ class Dog extends Animal {
 const rex = new Dog("Rex");
 console.log(rex.speak()); // Rex barks.
 ```
+
+`extends` sets up inheritance, and calling `super()` inside a subclass constructor runs the parent class's constructor.
+
+```javascript
+class Cat extends Animal {
+  constructor(name, indoor) {
+    super(name);
+    this.indoor = indoor;
+  }
+}
+```
