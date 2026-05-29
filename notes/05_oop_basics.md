@@ -207,3 +207,5 @@ class Cat extends Animal {
   }
 }
 ```
+
+## SOLID Principles
