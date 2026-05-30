@@ -211,3 +211,5 @@ class Cat extends Animal {
 ## SOLID Principles
 
 SOLID is a set of five design guidelines for writing maintainable object-oriented code.
+
+**S — Single Responsibility Principle**: a class should have only one reason to change. A `ReportGenerator` shouldn't also handle emailing the report — split those into two classes.
