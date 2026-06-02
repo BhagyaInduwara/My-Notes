@@ -217,3 +217,5 @@ SOLID is a set of five design guidelines for writing maintainable object-oriente
 **O — Open/Closed Principle**: classes should be open for extension but closed for modification. Add new behavior by adding new code (e.g., a new subclass), not by editing existing, tested code.
 
 **L — Liskov Substitution Principle**: a subclass should be usable anywhere its superclass is expected, without breaking correctness. If `Square extends Rectangle` but changing width unexpectedly changes height too, it violates this principle.
+
+**I — Interface Segregation Principle**: prefer many small, specific interfaces over one large general-purpose interface, so classes don't depend on methods they don't use.
