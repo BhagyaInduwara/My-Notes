@@ -219,3 +219,23 @@ SOLID is a set of five design guidelines for writing maintainable object-oriente
 **L — Liskov Substitution Principle**: a subclass should be usable anywhere its superclass is expected, without breaking correctness. If `Square extends Rectangle` but changing width unexpectedly changes height too, it violates this principle.
 
 **I — Interface Segregation Principle**: prefer many small, specific interfaces over one large general-purpose interface, so classes don't depend on methods they don't use.
+
+**D — Dependency Inversion Principle**: depend on abstractions, not concrete implementations. High-level code should not need to know the details of low-level code — both should depend on an interface.
+
+```python
+class NotificationSender(ABC):
+    @abstractmethod
+    def send(self, message):
+        pass
+
+class EmailSender(NotificationSender):
+    def send(self, message):
+        print(f"Emailing: {message}")
+
+class OrderService:
+    def __init__(self, sender: NotificationSender):
+        self.sender = sender  # depends on the abstraction, not EmailSender directly
+
+    def place_order(self):
+        self.sender.send("Order placed!")
+```
