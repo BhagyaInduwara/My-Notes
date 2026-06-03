@@ -239,3 +239,5 @@ class OrderService:
     def place_order(self):
         self.sender.send("Order placed!")
 ```
+
+`OrderService` can work with any `NotificationSender` (email, SMS, push notification) without changing its own code — that's dependency inversion in practice.
