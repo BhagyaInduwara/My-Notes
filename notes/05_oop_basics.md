@@ -241,3 +241,5 @@ class OrderService:
 ```
 
 `OrderService` can work with any `NotificationSender` (email, SMS, push notification) without changing its own code — that's dependency inversion in practice.
+
+## Key takeaways
