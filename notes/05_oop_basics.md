@@ -243,3 +243,10 @@ class OrderService:
 `OrderService` can work with any `NotificationSender` (email, SMS, push notification) without changing its own code — that's dependency inversion in practice.
 
 ## Key takeaways
+
+- Classes are blueprints; objects are instances with their own state.
+- The four pillars are encapsulation, abstraction, inheritance, and polymorphism.
+- Overriding replaces a parent's method in a subclass; overloading (simulated in Python) means multiple signatures for one name.
+- Prefer composition ("has-a") over inheritance ("is-a") when relationships aren't strictly hierarchical.
+- Dunder methods let custom objects integrate with built-in Python syntax.
+- SOLID principles guide maintainable, extensible object-oriented design.
