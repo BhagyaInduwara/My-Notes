@@ -14,3 +14,5 @@ CREATE TABLE users (
     age INTEGER
 );
 ```
+
+`PRIMARY KEY` uniquely identifies each row. `NOT NULL` means the column can't be left empty. `UNIQUE` means no two rows can share the same value.
