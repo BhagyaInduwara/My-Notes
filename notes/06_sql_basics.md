@@ -18,3 +18,10 @@ CREATE TABLE users (
 `PRIMARY KEY` uniquely identifies each row. `NOT NULL` means the column can't be left empty. `UNIQUE` means no two rows can share the same value.
 
 ## Inserting Data
+
+`INSERT INTO` adds new rows to a table.
+
+```sql
+INSERT INTO users (name, email, age) VALUES ('Alex', 'alex@example.com', 25);
+INSERT INTO users (name, email, age) VALUES ('Sam', 'sam@example.com', 30);
+```
