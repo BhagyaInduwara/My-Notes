@@ -27,3 +27,10 @@ INSERT INTO users (name, email, age) VALUES ('Sam', 'sam@example.com', 30);
 ```
 
 ## Selecting Data
+
+`SELECT` retrieves data. `*` means "all columns", or you can list specific ones.
+
+```sql
+SELECT * FROM users;
+SELECT name, email FROM users;
+```
