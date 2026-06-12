@@ -25,3 +25,5 @@ CREATE TABLE users (
 INSERT INTO users (name, email, age) VALUES ('Alex', 'alex@example.com', 25);
 INSERT INTO users (name, email, age) VALUES ('Sam', 'sam@example.com', 30);
 ```
+
+## Selecting Data
