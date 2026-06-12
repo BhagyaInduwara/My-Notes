@@ -34,3 +34,10 @@ INSERT INTO users (name, email, age) VALUES ('Sam', 'sam@example.com', 30);
 SELECT * FROM users;
 SELECT name, email FROM users;
 ```
+
+`WHERE` filters rows based on a condition.
+
+```sql
+SELECT * FROM users WHERE age > 26;
+SELECT * FROM users WHERE name = 'Alex';
+```
