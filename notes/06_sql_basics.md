@@ -41,3 +41,9 @@ SELECT name, email FROM users;
 SELECT * FROM users WHERE age > 26;
 SELECT * FROM users WHERE name = 'Alex';
 ```
+
+`ORDER BY` sorts results, and `LIMIT` caps how many rows come back.
+
+```sql
+SELECT * FROM users ORDER BY age DESC LIMIT 5;
+```
