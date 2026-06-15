@@ -47,3 +47,5 @@ SELECT * FROM users WHERE name = 'Alex';
 ```sql
 SELECT * FROM users ORDER BY age DESC LIMIT 5;
 ```
+
+## Updating and Deleting
