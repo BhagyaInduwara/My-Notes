@@ -49,3 +49,11 @@ SELECT * FROM users ORDER BY age DESC LIMIT 5;
 ```
 
 ## Updating and Deleting
+
+`UPDATE` changes existing rows, and `DELETE` removes them. Both should almost always be paired with a `WHERE` clause — without one, they affect every row in the table.
+
+```sql
+UPDATE users SET age = 26 WHERE name = 'Alex';
+
+DELETE FROM users WHERE name = 'Sam';
+```
