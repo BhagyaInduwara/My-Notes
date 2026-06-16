@@ -57,3 +57,5 @@ UPDATE users SET age = 26 WHERE name = 'Alex';
 
 DELETE FROM users WHERE name = 'Sam';
 ```
+
+## Joins
