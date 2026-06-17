@@ -59,3 +59,18 @@ DELETE FROM users WHERE name = 'Sam';
 ```
 
 ## Joins
+
+Real data is usually split across multiple related tables. A `JOIN` combines rows from two tables based on a matching column.
+
+```sql
+CREATE TABLE orders (
+    id INTEGER PRIMARY KEY,
+    user_id INTEGER,
+    product TEXT,
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
+
+SELECT users.name, orders.product
+FROM users
+INNER JOIN orders ON users.id = orders.user_id;
+```
