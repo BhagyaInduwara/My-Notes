@@ -74,3 +74,11 @@ SELECT users.name, orders.product
 FROM users
 INNER JOIN orders ON users.id = orders.user_id;
 ```
+
+An `INNER JOIN` returns only rows that match in both tables. A `LEFT JOIN` returns all rows from the left table, filling in `NULL` for unmatched columns from the right table.
+
+```sql
+SELECT users.name, orders.product
+FROM users
+LEFT JOIN orders ON users.id = orders.user_id;
+```
