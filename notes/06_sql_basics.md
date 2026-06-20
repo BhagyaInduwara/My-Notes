@@ -103,3 +103,5 @@ FROM orders
 GROUP BY user_id
 HAVING COUNT(*) > 1;
 ```
+
+## Indexes
