@@ -84,3 +84,13 @@ LEFT JOIN orders ON users.id = orders.user_id;
 ```
 
 ## Aggregate Functions and GROUP BY
+
+Aggregate functions compute a single value from many rows: `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`. `GROUP BY` buckets rows before aggregating.
+
+```sql
+SELECT COUNT(*) FROM users;
+
+SELECT user_id, COUNT(*) AS order_count
+FROM orders
+GROUP BY user_id;
+```
