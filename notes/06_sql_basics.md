@@ -94,3 +94,12 @@ SELECT user_id, COUNT(*) AS order_count
 FROM orders
 GROUP BY user_id;
 ```
+
+`HAVING` filters groups after aggregation (whereas `WHERE` filters individual rows before grouping).
+
+```sql
+SELECT user_id, COUNT(*) AS order_count
+FROM orders
+GROUP BY user_id
+HAVING COUNT(*) > 1;
+```
