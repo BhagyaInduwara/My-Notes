@@ -111,3 +111,5 @@ An index speeds up lookups on a column, much like an index in a book helps you f
 ```sql
 CREATE INDEX idx_users_email ON users(email);
 ```
+
+Indexes speed up reads but add a small cost to writes (inserts/updates must also update the index), so they're best added on columns you frequently filter or join on.
