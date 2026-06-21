@@ -105,3 +105,9 @@ HAVING COUNT(*) > 1;
 ```
 
 ## Indexes
+
+An index speeds up lookups on a column, much like an index in a book helps you find a topic without reading every page.
+
+```sql
+CREATE INDEX idx_users_email ON users(email);
+```
