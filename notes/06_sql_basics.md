@@ -115,3 +115,14 @@ CREATE INDEX idx_users_email ON users(email);
 Indexes speed up reads but add a small cost to writes (inserts/updates must also update the index), so they're best added on columns you frequently filter or join on.
 
 ## Transactions
+
+A transaction groups multiple statements so they either all succeed or all fail together, keeping data consistent.
+
+```sql
+BEGIN TRANSACTION;
+
+UPDATE users SET age = age + 1 WHERE name = 'Alex';
+INSERT INTO orders (user_id, product) VALUES (1, 'Book');
+
+COMMIT;
+```
