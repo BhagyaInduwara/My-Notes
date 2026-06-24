@@ -126,3 +126,5 @@ INSERT INTO orders (user_id, product) VALUES (1, 'Book');
 
 COMMIT;
 ```
+
+If something goes wrong partway through, `ROLLBACK` undoes every change made since `BEGIN TRANSACTION`.
