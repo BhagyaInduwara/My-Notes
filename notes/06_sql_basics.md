@@ -128,3 +128,5 @@ COMMIT;
 ```
 
 If something goes wrong partway through, `ROLLBACK` undoes every change made since `BEGIN TRANSACTION`.
+
+## Key takeaways
