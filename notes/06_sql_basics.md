@@ -130,3 +130,10 @@ COMMIT;
 If something goes wrong partway through, `ROLLBACK` undoes every change made since `BEGIN TRANSACTION`.
 
 ## Key takeaways
+
+- Data lives in tables of rows and columns; `PRIMARY KEY` uniquely identifies each row.
+- `SELECT` + `WHERE` + `ORDER BY` + `LIMIT` cover most everyday queries.
+- Always use `WHERE` with `UPDATE`/`DELETE` unless you really mean to affect every row.
+- `JOIN` combines related tables; `INNER JOIN` needs a match, `LEFT JOIN` keeps unmatched left-side rows.
+- `GROUP BY` + aggregate functions summarize data; `HAVING` filters after grouping.
+- Transactions keep multi-step changes all-or-nothing.
