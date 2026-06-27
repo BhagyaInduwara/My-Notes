@@ -10,3 +10,5 @@ Git is a distributed version control system: it tracks changes to files over tim
 git init
 git status
 ```
+
+`git status` shows what's changed, what's staged, and what's untracked — it's the command you'll run constantly.
