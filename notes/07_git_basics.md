@@ -21,3 +21,5 @@ Git has three areas: the working directory (your actual files), the staging area
 git add file.txt        # stage one file
 git add .                # stage everything in the current directory
 ```
+
+## Committing
