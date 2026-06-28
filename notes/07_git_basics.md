@@ -14,3 +14,10 @@ git status
 `git status` shows what's changed, what's staged, and what's untracked — it's the command you'll run constantly.
 
 ## The Staging Area
+
+Git has three areas: the working directory (your actual files), the staging area (changes you've marked to include in the next commit), and the repository (committed history). `git add` moves changes into staging.
+
+```bash
+git add file.txt        # stage one file
+git add .                # stage everything in the current directory
+```
