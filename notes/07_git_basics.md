@@ -23,3 +23,9 @@ git add .                # stage everything in the current directory
 ```
 
 ## Committing
+
+A commit is a snapshot of the staged changes, saved permanently in history with a message describing what changed.
+
+```bash
+git commit -m "Add user login form"
+```
