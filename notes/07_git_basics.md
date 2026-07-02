@@ -29,3 +29,5 @@ A commit is a snapshot of the staged changes, saved permanently in history with 
 ```bash
 git commit -m "Add user login form"
 ```
+
+Good commit messages are short, specific, and written in the imperative mood ("Add", "Fix", "Update") rather than describing what you did ("Added", "Fixed").
