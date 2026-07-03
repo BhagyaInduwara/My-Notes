@@ -33,3 +33,11 @@ git commit -m "Add user login form"
 Good commit messages are short, specific, and written in the imperative mood ("Add", "Fix", "Update") rather than describing what you did ("Added", "Fixed").
 
 ## Viewing History
+
+`git log` shows the commit history; `git diff` shows exact line-by-line changes.
+
+```bash
+git log --oneline
+git diff              # unstaged changes
+git diff --staged     # staged changes not yet committed
+```
