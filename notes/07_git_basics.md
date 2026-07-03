@@ -31,3 +31,5 @@ git commit -m "Add user login form"
 ```
 
 Good commit messages are short, specific, and written in the imperative mood ("Add", "Fix", "Update") rather than describing what you did ("Added", "Fixed").
+
+## Viewing History
