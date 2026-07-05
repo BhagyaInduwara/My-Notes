@@ -41,3 +41,5 @@ git log --oneline
 git diff              # unstaged changes
 git diff --staged     # staged changes not yet committed
 ```
+
+## Branches
