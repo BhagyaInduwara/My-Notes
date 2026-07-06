@@ -43,3 +43,11 @@ git diff --staged     # staged changes not yet committed
 ```
 
 ## Branches
+
+A branch is an independent line of development. The default branch is usually called `main`. Creating a branch lets you work on a feature without affecting the main codebase until it's ready.
+
+```bash
+git branch feature-login       # create a branch
+git checkout feature-login     # switch to it
+git checkout -b feature-login  # create and switch in one step
+```
