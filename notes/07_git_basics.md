@@ -51,3 +51,10 @@ git branch feature-login       # create a branch
 git checkout feature-login     # switch to it
 git checkout -b feature-login  # create and switch in one step
 ```
+
+Newer Git versions also support `git switch` for changing branches, which is a bit clearer than overloaded `checkout`.
+
+```bash
+git switch feature-login
+git switch -c feature-login  # create and switch
+```
