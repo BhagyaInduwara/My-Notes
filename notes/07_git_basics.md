@@ -58,3 +58,5 @@ Newer Git versions also support `git switch` for changing branches, which is a b
 git switch feature-login
 git switch -c feature-login  # create and switch
 ```
+
+## Merging
