@@ -60,3 +60,10 @@ git switch -c feature-login  # create and switch
 ```
 
 ## Merging
+
+Once a branch's work is ready, `git merge` combines it back into another branch (commonly `main`).
+
+```bash
+git checkout main
+git merge feature-login
+```
