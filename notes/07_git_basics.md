@@ -67,3 +67,13 @@ Once a branch's work is ready, `git merge` combines it back into another branch 
 git checkout main
 git merge feature-login
 ```
+
+If both branches changed the same lines, Git can't automatically decide which version to keep — this is a **merge conflict**, and Git marks the conflicting lines in the file for you to resolve manually before committing the merge.
+
+```
+<<<<<<< HEAD
+Your version of the line
+=======
+Their version of the line
+>>>>>>> feature-login
+```
