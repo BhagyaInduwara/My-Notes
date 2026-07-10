@@ -79,3 +79,5 @@ Their version of the line
 ```
 
 After editing the file to keep the correct content and removing the conflict markers, stage and commit the resolution.
+
+## Remotes
