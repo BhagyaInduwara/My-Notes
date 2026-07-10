@@ -77,3 +77,5 @@ Your version of the line
 Their version of the line
 >>>>>>> feature-login
 ```
+
+After editing the file to keep the correct content and removing the conflict markers, stage and commit the resolution.
