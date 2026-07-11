@@ -81,3 +81,11 @@ Their version of the line
 After editing the file to keep the correct content and removing the conflict markers, stage and commit the resolution.
 
 ## Remotes
+
+A remote is a version of your repository hosted elsewhere (like GitHub). `git clone` copies a remote repo locally; `git push` sends local commits to the remote; `git pull` fetches and merges remote changes into your local branch.
+
+```bash
+git clone https://github.com/user/repo.git
+git push origin main
+git pull origin main
+```
