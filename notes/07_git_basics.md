@@ -89,3 +89,5 @@ git clone https://github.com/user/repo.git
 git push origin main
 git pull origin main
 ```
+
+`origin` is just the conventional name for the primary remote — you could name it anything.
