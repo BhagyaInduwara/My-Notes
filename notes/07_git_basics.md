@@ -101,3 +101,5 @@ git restore file.txt              # discard unstaged changes to a file
 git reset --soft HEAD~1           # undo last commit, keep changes staged
 git revert abc1234                # safely undo a specific past commit
 ```
+
+Avoid `git reset --hard` on commits that have already been pushed and shared with others — rewriting shared history can break their local copies.
