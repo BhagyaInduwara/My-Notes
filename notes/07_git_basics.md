@@ -93,3 +93,11 @@ git pull origin main
 `origin` is just the conventional name for the primary remote — you could name it anything.
 
 ## Undoing Changes
+
+Git offers several ways to undo things, each with a different scope. `git restore` reverts an unstaged file to its last committed state. `git reset` moves the branch pointer, optionally undoing commits. `git revert` creates a new commit that undoes a previous one, which is safer for shared history.
+
+```bash
+git restore file.txt              # discard unstaged changes to a file
+git reset --soft HEAD~1           # undo last commit, keep changes staged
+git revert abc1234                # safely undo a specific past commit
+```
