@@ -113,3 +113,5 @@ node_modules/
 *.log
 .env
 ```
+
+## Key takeaways
