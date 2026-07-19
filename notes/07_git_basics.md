@@ -115,3 +115,9 @@ node_modules/
 ```
 
 ## Key takeaways
+
+- Git tracks snapshots (commits) through three stages: working directory, staging area, repository.
+- Branches let you isolate work; `main` merges completed features back in.
+- Merge conflicts happen when the same lines change on both branches and must be resolved manually.
+- `git push`/`git pull` sync your local repo with a remote like GitHub.
+- Prefer `git revert` over `git reset --hard` for undoing already-shared commits.
