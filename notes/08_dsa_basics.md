@@ -15,3 +15,5 @@ O(n^2)    quadratic    — nested loops over the same data
 ```
 
 An `O(n^2)` algorithm might be fine for 100 items but unusably slow for 1,000,000 — Big O helps you predict that before it becomes a production problem.
+
+## Arrays
