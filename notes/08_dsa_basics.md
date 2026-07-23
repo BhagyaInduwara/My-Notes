@@ -26,3 +26,5 @@ print(numbers[2])       # 30, O(1) lookup
 numbers.insert(1, 15)   # O(n), shifts elements right
 print(numbers)          # [10, 15, 20, 30, 40]
 ```
+
+## Linked Lists
