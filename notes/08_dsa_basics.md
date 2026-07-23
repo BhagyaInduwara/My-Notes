@@ -17,3 +17,12 @@ O(n^2)    quadratic    — nested loops over the same data
 An `O(n^2)` algorithm might be fine for 100 items but unusably slow for 1,000,000 — Big O helps you predict that before it becomes a production problem.
 
 ## Arrays
+
+An array stores elements in contiguous memory, accessed by index. Reading by index is `O(1)`, but inserting/removing from the middle is `O(n)` because later elements must shift.
+
+```python
+numbers = [10, 20, 30, 40]
+print(numbers[2])       # 30, O(1) lookup
+numbers.insert(1, 15)   # O(n), shifts elements right
+print(numbers)          # [10, 15, 20, 30, 40]
+```
