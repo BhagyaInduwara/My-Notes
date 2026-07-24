@@ -28,3 +28,20 @@ print(numbers)          # [10, 15, 20, 30, 40]
 ```
 
 ## Linked Lists
+
+A linked list stores elements as nodes, each pointing to the next. Unlike arrays, elements aren't contiguous in memory, so inserting/removing at a known position is `O(1)`, but finding an element by position is `O(n)` (no direct indexing).
+
+```python
+class Node:
+    def __init__(self, value, next=None):
+        self.value = value
+        self.next = next
+
+# 1 -> 2 -> 3
+head = Node(1, Node(2, Node(3)))
+
+current = head
+while current:
+    print(current.value)
+    current = current.next
+```
