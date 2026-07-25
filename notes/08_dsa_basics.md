@@ -47,3 +47,22 @@ while current:
 ```
 
 ## Stacks and Queues
+
+A stack is Last-In-First-Out (LIFO) — think of a stack of plates, you take from the top. A queue is First-In-First-Out (FIFO) — think of a checkout line.
+
+```python
+# Stack using a Python list
+stack = []
+stack.append(1)
+stack.append(2)
+stack.append(3)
+print(stack.pop())  # 3 (last in, first out)
+
+from collections import deque
+
+# Queue using deque (efficient at both ends)
+queue = deque()
+queue.append(1)
+queue.append(2)
+print(queue.popleft())  # 1 (first in, first out)
+```
