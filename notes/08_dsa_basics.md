@@ -45,3 +45,5 @@ while current:
     print(current.value)
     current = current.next
 ```
+
+## Stacks and Queues
