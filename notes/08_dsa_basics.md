@@ -68,3 +68,5 @@ print(queue.popleft())  # 1 (first in, first out)
 ```
 
 Stacks are used for undo history and function call tracking; queues are used for task scheduling and breadth-first traversal.
+
+## Hash Maps
