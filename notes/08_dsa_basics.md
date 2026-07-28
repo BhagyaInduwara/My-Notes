@@ -70,3 +70,13 @@ print(queue.popleft())  # 1 (first in, first out)
 Stacks are used for undo history and function call tracking; queues are used for task scheduling and breadth-first traversal.
 
 ## Hash Maps
+
+A hash map (dictionary in Python) stores key-value pairs and offers average `O(1)` lookup, insertion, and deletion by hashing the key to a memory location.
+
+```python
+ages = {"Alex": 25, "Sam": 30}
+ages["Jordan"] = 28
+
+print(ages["Alex"])       # 25, O(1) average
+print("Sam" in ages)      # True, O(1) average
+```
