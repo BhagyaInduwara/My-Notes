@@ -82,3 +82,5 @@ print("Sam" in ages)      # True, O(1) average
 ```
 
 Hash maps trade some memory overhead for that speed, and are one of the most commonly used data structures in real code.
+
+## Trees
