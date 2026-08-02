@@ -84,3 +84,26 @@ print("Sam" in ages)      # True, O(1) average
 Hash maps trade some memory overhead for that speed, and are one of the most commonly used data structures in real code.
 
 ## Trees
+
+A tree is a hierarchical structure of nodes, each with a value and references to child nodes. A binary search tree (BST) keeps values ordered: everything in a node's left subtree is smaller, everything in its right subtree is larger.
+
+```python
+class TreeNode:
+    def __init__(self, value):
+        self.value = value
+        self.left = None
+        self.right = None
+
+def insert(node, value):
+    if node is None:
+        return TreeNode(value)
+    if value < node.value:
+        node.left = insert(node.left, value)
+    else:
+        node.right = insert(node.right, value)
+    return node
+
+root = None
+for v in [5, 3, 8, 1, 4]:
+    root = insert(root, v)
+```
