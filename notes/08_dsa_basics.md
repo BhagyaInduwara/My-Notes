@@ -109,3 +109,5 @@ for v in [5, 3, 8, 1, 4]:
 ```
 
 A balanced BST gives `O(log n)` search, insert, and delete — much better than a linear scan.
+
+## Sorting Algorithms
