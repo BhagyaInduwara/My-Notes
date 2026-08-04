@@ -111,3 +111,17 @@ for v in [5, 3, 8, 1, 4]:
 A balanced BST gives `O(log n)` search, insert, and delete — much better than a linear scan.
 
 ## Sorting Algorithms
+
+Bubble sort is simple but slow (`O(n^2)`); merge sort and quicksort are efficient general-purpose sorts (`O(n log n)` average).
+
+```python
+def bubble_sort(arr):
+    n = len(arr)
+    for i in range(n):
+        for j in range(n - i - 1):
+            if arr[j] > arr[j + 1]:
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+    return arr
+
+print(bubble_sort([5, 2, 4, 1, 3]))  # [1, 2, 3, 4, 5]
+```
