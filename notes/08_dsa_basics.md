@@ -125,3 +125,5 @@ def bubble_sort(arr):
 
 print(bubble_sort([5, 2, 4, 1, 3]))  # [1, 2, 3, 4, 5]
 ```
+
+In practice, use your language's built-in sort (Python's `sorted()`, which uses an optimized hybrid called Timsort) rather than hand-rolling sorting algorithms for real projects — implementing them yourself is mainly for learning how they work.
