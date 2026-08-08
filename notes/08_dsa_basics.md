@@ -129,3 +129,21 @@ print(bubble_sort([5, 2, 4, 1, 3]))  # [1, 2, 3, 4, 5]
 In practice, use your language's built-in sort (Python's `sorted()`, which uses an optimized hybrid called Timsort) rather than hand-rolling sorting algorithms for real projects — implementing them yourself is mainly for learning how they work.
 
 ## Binary Search
+
+Binary search finds a value in a *sorted* array in `O(log n)` by repeatedly halving the search range.
+
+```python
+def binary_search(arr, target):
+    low, high = 0, len(arr) - 1
+    while low <= high:
+        mid = (low + high) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            low = mid + 1
+        else:
+            high = mid - 1
+    return -1
+
+print(binary_search([1, 3, 5, 7, 9, 11], 7))  # 3
+```
