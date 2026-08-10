@@ -149,3 +149,14 @@ print(binary_search([1, 3, 5, 7, 9, 11], 7))  # 3
 ```
 
 ## Recursion
+
+Recursion is a function calling itself to solve a smaller version of the same problem, until it reaches a base case that stops the recursion.
+
+```python
+def factorial(n):
+    if n <= 1:       # base case
+        return 1
+    return n * factorial(n - 1)  # recursive case
+
+print(factorial(5))  # 120
+```
