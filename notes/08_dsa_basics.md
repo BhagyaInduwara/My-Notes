@@ -162,3 +162,5 @@ print(factorial(5))  # 120
 ```
 
 Every recursive function needs a base case (or it will recurse forever and crash with a stack overflow) and must make progress toward that base case on each call.
+
+## Key takeaways
