@@ -164,3 +164,9 @@ print(factorial(5))  # 120
 Every recursive function needs a base case (or it will recurse forever and crash with a stack overflow) and must make progress toward that base case on each call.
 
 ## Key takeaways
+
+- Big O describes how performance scales with input size, not exact speed.
+- Arrays give fast index access; linked lists give fast insertion/removal at known positions.
+- Stacks are LIFO, queues are FIFO; hash maps give average `O(1)` key lookups.
+- Balanced trees enable `O(log n)` search; binary search needs sorted data.
+- Every recursive function needs a base case that stops the recursion.
