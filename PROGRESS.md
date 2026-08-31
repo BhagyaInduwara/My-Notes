@@ -5,3 +5,4 @@ A running log of progress through these notes.
 - 2026-08-18: Revised: CSS
 - 2026-08-19: Revised: JavaScript
 - 2026-08-20: Revised: Python
+- 2026-08-31: Revised: OOP
