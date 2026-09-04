@@ -7,3 +7,4 @@ A running log of progress through these notes.
 - 2026-08-20: Revised: Python
 - 2026-08-31: Revised: OOP
 - 2026-09-03: Revised: SQL
+- 2026-09-04: Revised: Git
