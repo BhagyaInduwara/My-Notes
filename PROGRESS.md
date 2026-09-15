@@ -11,3 +11,4 @@ A running log of progress through these notes.
 - 2026-09-11: Revised: Data Structures & Algorithms
 - 2026-09-13: Revised: HTML
 - 2026-09-14: Revised: CSS
+- 2026-09-15: Revised: JavaScript
