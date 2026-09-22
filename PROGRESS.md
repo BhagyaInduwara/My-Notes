@@ -17,3 +17,4 @@ A running log of progress through these notes.
 - 2026-09-18: Revised: SQL
 - 2026-09-19: Revised: Git
 - 2026-09-20: Revised: Data Structures & Algorithms
+- 2026-09-22: Revised: HTML
