@@ -12,6 +12,7 @@ Beginner-friendly programming notes, written while learning web development, Pyt
 6. [SQL Basics](notes/06_sql_basics.md)
 7. [Git Basics](notes/07_git_basics.md)
 8. [Data Structures & Algorithms Basics](notes/08_dsa_basics.md)
+9. [Debugging & Testing Basics](notes/09_debugging_testing_basics.md)
 
 See [PROGRESS.md](PROGRESS.md) for the learning log.
 
