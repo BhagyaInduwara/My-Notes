@@ -18,3 +18,5 @@ divide(10, 0)
 #     return a / b
 # ZeroDivisionError: division by zero
 ```
+
+The error type (`ZeroDivisionError`) and message tell you *what* went wrong; the file and line number tell you *where*. Resist the urge to guess — read the actual message first.
