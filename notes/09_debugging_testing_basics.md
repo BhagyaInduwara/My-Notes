@@ -20,3 +20,5 @@ divide(10, 0)
 ```
 
 The error type (`ZeroDivisionError`) and message tell you *what* went wrong; the file and line number tell you *where*. Resist the urge to guess — read the actual message first.
+
+## Print/Console Debugging
