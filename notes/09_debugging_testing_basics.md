@@ -30,3 +30,5 @@ def total_price(items):
     print(f"items: {items}")  # temporary debug line
     return sum(item["price"] for item in items)
 ```
+
+This is quick but easy to forget to remove, and doesn't let you pause execution — for anything non-trivial, a real debugger is faster.
