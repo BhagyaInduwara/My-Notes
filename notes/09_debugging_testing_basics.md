@@ -22,3 +22,11 @@ divide(10, 0)
 The error type (`ZeroDivisionError`) and message tell you *what* went wrong; the file and line number tell you *where*. Resist the urge to guess — read the actual message first.
 
 ## Print/Console Debugging
+
+The simplest debugging technique is printing values at key points to see what the program is actually doing versus what you assumed it was doing.
+
+```python
+def total_price(items):
+    print(f"items: {items}")  # temporary debug line
+    return sum(item["price"] for item in items)
+```
