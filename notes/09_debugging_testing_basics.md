@@ -34,3 +34,11 @@ def total_price(items):
 This is quick but easy to forget to remove, and doesn't let you pause execution — for anything non-trivial, a real debugger is faster.
 
 ## Using a Debugger
+
+A debugger lets you pause execution at a specific line (a breakpoint) and inspect variables at that exact moment, instead of guessing from printed output.
+
+```python
+def total_price(items):
+    breakpoint()  # execution pauses here; inspect `items` interactively
+    return sum(item["price"] for item in items)
+```
