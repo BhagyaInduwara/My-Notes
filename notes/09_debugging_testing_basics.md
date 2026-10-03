@@ -42,3 +42,5 @@ def total_price(items):
     breakpoint()  # execution pauses here; inspect `items` interactively
     return sum(item["price"] for item in items)
 ```
+
+Most editors (VS Code, PyCharm) let you click in the margin to set a breakpoint instead of editing code, then step through line by line, watching variables change.
