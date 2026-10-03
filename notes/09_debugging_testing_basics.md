@@ -32,3 +32,5 @@ def total_price(items):
 ```
 
 This is quick but easy to forget to remove, and doesn't let you pause execution — for anything non-trivial, a real debugger is faster.
+
+## Using a Debugger
