@@ -44,3 +44,5 @@ def total_price(items):
 ```
 
 Most editors (VS Code, PyCharm) let you click in the margin to set a breakpoint instead of editing code, then step through line by line, watching variables change.
+
+## Writing a Simple Unit Test
