@@ -13,3 +13,5 @@ cd my-project       # move into a folder
 cd ..               # move up one level
 cd ~                # jump to your home directory
 ```
+
+`..` means "the parent directory" and `.` means "the current directory" — both are useful in paths like `cd ../sibling-folder`.
