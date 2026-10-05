@@ -17,3 +17,12 @@ cd ~                # jump to your home directory
 `..` means "the parent directory" and `.` means "the current directory" — both are useful in paths like `cd ../sibling-folder`.
 
 ## Creating and Removing Files
+
+`mkdir` creates a directory, `touch` creates an empty file, and `rm` removes files (use `rm -r` for directories, carefully — there's no trash can).
+
+```bash
+mkdir notes
+touch notes/todo.txt
+rm notes/todo.txt
+rm -r notes
+```
