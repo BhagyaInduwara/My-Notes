@@ -15,3 +15,5 @@ cd ~                # jump to your home directory
 ```
 
 `..` means "the parent directory" and `.` means "the current directory" — both are useful in paths like `cd ../sibling-folder`.
+
+## Creating and Removing Files
