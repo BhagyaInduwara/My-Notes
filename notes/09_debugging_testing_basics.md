@@ -46,3 +46,14 @@ def total_price(items):
 Most editors (VS Code, PyCharm) let you click in the margin to set a breakpoint instead of editing code, then step through line by line, watching variables change.
 
 ## Writing a Simple Unit Test
+
+A unit test checks that a small piece of code behaves correctly, automatically, so you don't have to manually re-verify it every time you change something nearby.
+
+```python
+def add(a, b):
+    return a + b
+
+def test_add():
+    assert add(2, 3) == 5
+    assert add(-1, 1) == 0
+```
