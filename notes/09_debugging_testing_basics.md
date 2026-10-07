@@ -63,3 +63,5 @@ Tools like `pytest` discover and run functions named `test_*` automatically and 
 ```bash
 pytest test_math.py
 ```
+
+## Key takeaways
