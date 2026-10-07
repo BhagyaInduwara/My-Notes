@@ -65,3 +65,8 @@ pytest test_math.py
 ```
 
 ## Key takeaways
+
+- Read the traceback/stack trace from the bottom up — it names the exact error and location.
+- Print debugging is fast but temporary; a real debugger lets you pause and inspect state without guessing.
+- Unit tests turn manual "does this still work?" checks into automated, repeatable ones.
+- Write tests for the behavior you care about, not implementation details, so they survive refactors.
