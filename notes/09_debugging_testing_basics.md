@@ -57,3 +57,9 @@ def test_add():
     assert add(2, 3) == 5
     assert add(-1, 1) == 0
 ```
+
+Tools like `pytest` discover and run functions named `test_*` automatically and report which ones passed or failed, with the exact assertion that broke.
+
+```bash
+pytest test_math.py
+```
